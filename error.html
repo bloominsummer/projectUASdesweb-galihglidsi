@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="error.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="error-code">404</div>
+    <div class="error-message">Oops! Halaman yang Anda cari tidak ditemukan.</div>
+    
+    <!-- Button to go back to the previous page -->
+    <button onclick="goBack()" class="back-home">Kembali ke Halaman Sebelumnya</button>
+    
+    <img src="https://drive.google.com/thumbnail?id=14Qv1kzPVWF8R-TxXLv8CHuRTOweXWk7z&sz=w1200-h768" alt="404 Image" class="animated-img">
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    // Function to go back to the previous page
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+
+</body>
+</html>
